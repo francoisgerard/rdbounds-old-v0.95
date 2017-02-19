@@ -2,8 +2,8 @@
 
 export(bounds_estimate)
 export(compute_tau_tilde)
-export(rdmr)
-export(rdmr_export)
-export(rdmr_sampledata)
-export(rdmr_summary)
+export(rdbounds)
+export(rdbounds_export)
+export(rdbounds_sampledata)
+export(rdbounds_summary)
 import(data.table)

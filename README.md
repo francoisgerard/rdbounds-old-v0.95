@@ -5,8 +5,10 @@ This is a public repository for the R package rdbounds, implementing the estimat
 This is a **beta** version of the code and is still undergoing testing. We appreciate any feedback or issues noted. Please direct your comments to leonard.goff at columbia.edu.
 
 You may install the ```rdbounds``` pacakge directly from this repository using the ```devtools``` package, as follows:
+
 ```{r}
 library(devtools)
 install_github("leonardgoff/rdbounds")
 ```
+
 Alternatively, you may download [rdbounds_0.95.tar.gz](../blob/master/rdbounds_0.95.tar.gz) and install the package from source code.

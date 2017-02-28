@@ -27,3 +27,4 @@ rdbounds_est<-rdbounds(y=df$y,x=df$x, covs=df$cov, treatment=df$treatment, c=0,
                        num_bootstraps=c(1,1))
 rdbounds_summary(rdbounds_est, title_prefix="Sample Data Results")
 ```
+You will need to have the packages ```formattable``` and ```data.table``` installed to use ```rdbounds```.

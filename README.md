@@ -1,6 +1,6 @@
 ## Manipulation Robust Regression Discontinuity Bounds Estimation in R - Beta Version (0.95)
 
-This is a public repository for the R package ```rdbounds```, implementing the estimation procedure developed in [Bounds on Treatment Effects in Regression Discontinuity Designs under Manipulation of the Running Variable, with an Application to Unemployment Insurance in Brazil](http://www.nber.org/papers/w22892, "NBER Working Paper"), by François Gerard, Miikka Rokkanen, and Christoph Rothe.
+This is a public repository for the R package ```rdbounds```, implementing the estimation procedure developed in the paper [Bounds on Treatment Effects in Regression Discontinuity Designs under Manipulation of the Running Variable, with an Application to Unemployment Insurance in Brazil](http://www.nber.org/papers/w22892, "NBER Working Paper"), by François Gerard, Miikka Rokkanen, and Christoph Rothe.
 
 This is a **beta** version of the code and is still undergoing testing. We appreciate any feedback or issues noted. Please direct your comments to leonard.goff at columbia.edu.
 

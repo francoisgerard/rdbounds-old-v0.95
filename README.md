@@ -6,7 +6,7 @@ This is a **beta** version of the code and is still undergoing testing. We appre
 
 See [rdbounds.pdf](rdbounds.pdf) for documentation. The code is viewable in [R/rdbounds.R](https://github.com/francoisgerard/rdbounds/blob/master/R/rdbounds.R).
 
-You may install the ```rdbounds``` package directly from this repository using the ```devtools``` package, by running the following commands in R (the first two lines may not be necessary if you already have the packages ```formattable``` and ```data.table``` installed):
+You may install the ```rdbounds``` package directly from this repository using the ```devtools``` package, by running the following commands in R (the first three lines may not be necessary if you already have the corresponding packages installed):
 
 ```{r}
 install.packages("formattable")

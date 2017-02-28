@@ -4,7 +4,7 @@ This is a public repository for the R package ```rdbounds```, implementing the e
 
 This is a **beta** version of the code and is still undergoing testing. We appreciate any feedback or issues noted. Please direct your comments to leonard.goff at columbia.edu.
 
-See [rdbounds.pdf](rdbounds.pdf) for documentation. The code is viewable in [R/rdbounds.R](rdbounds.R).
+See [rdbounds.pdf](rdbounds.pdf) for documentation. The code is viewable in [R\rdbounds.R](rdbounds.R).
 
 You may install the ```rdbounds``` package directly from this repository using the ```devtools``` package, by running the following commands in R (the first two lines may not be necessary if you already have the packages ```formattable``` and ```data.table``` installed):
 

@@ -17,6 +17,8 @@ Alternatively, you may download [rdbounds_0.95.tar.gz](rdbounds_0.95.tar.gz) and
 Here's some test code to get you going, once installed:
 
 ```{r}
+library(formattable)
+library(data.table)
 library(rdbounds)
 df<-rdbounds_sampledata(30000, covs=TRUE)
 rdbounds_est<-rdbounds(y=df$y,x=df$x, covs=df$cov, treatment=df$treatment, c=0,
@@ -27,4 +29,4 @@ rdbounds_est<-rdbounds(y=df$y,x=df$x, covs=df$cov, treatment=df$treatment, c=0,
                        num_bootstraps=c(1,1))
 rdbounds_summary(rdbounds_est, title_prefix="Sample Data Results")
 ```
-You will need to have the packages ```formattable``` and ```data.table``` installed to use ```rdbounds```.
+If they are not already, you will need to use ```install.packages()``` to install the packages ```formattable``` and ```data.table``` installed to use ```rdbounds```.

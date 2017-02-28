@@ -7,6 +7,7 @@ This is a **beta** version of the code and is still undergoing testing. We appre
 You may install the ```rdbounds``` package directly from this repository using the ```devtools``` package, as follows:
 
 ```{r}
+install.packages("devtools")
 library(devtools)
 install_github("leonardgoff/rdbounds")
 ```

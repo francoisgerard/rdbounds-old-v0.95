@@ -8,11 +8,13 @@ You may install the ```rdbounds``` package directly from this repository using t
 
 ```{r}
 install.packages("devtools")
+install.packages("formattable")
+install.packages("data.table")
 library(devtools)
 install_github("leonardgoff/rdbounds")
 ```
 
-Alternatively, you may download [rdbounds_0.95.tar.gz](rdbounds_0.95.tar.gz) and install the package from source code.
+Alternatively, you may download [rdbounds_0.95.tar.gz](rdbounds_0.95.tar.gz) and install the package from source code. You will need to also install the packages ```formattable``` and ```data.table``` if you do not have them already.
 
 Here's some test code to get you going, once installed:
 
@@ -29,4 +31,3 @@ rdbounds_est<-rdbounds(y=df$y,x=df$x, covs=df$cov, treatment=df$treatment, c=0,
                        num_bootstraps=c(1,1))
 rdbounds_summary(rdbounds_est, title_prefix="Sample Data Results")
 ```
-If they are not already installed, you will need to use ```install.packages()``` to obtain the packages ```formattable``` and ```data.table```.

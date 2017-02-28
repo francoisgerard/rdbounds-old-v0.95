@@ -29,4 +29,4 @@ rdbounds_est<-rdbounds(y=df$y,x=df$x, covs=df$cov, treatment=df$treatment, c=0,
                        num_bootstraps=c(1,1))
 rdbounds_summary(rdbounds_est, title_prefix="Sample Data Results")
 ```
-If they are not already, you will need to use ```install.packages()``` to install the packages ```formattable``` and ```data.table``` installed to use ```rdbounds```.
+If they are not already installed, you will need to use ```install.packages()``` to obtain the packages ```formattable``` and ```data.table``.
